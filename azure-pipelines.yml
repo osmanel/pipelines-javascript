@@ -8,9 +8,9 @@ trigger:
 
 pool:
   #vmImage: ubuntu-latest
-  name: OnPremise
-  demands:
-   - agent.name -equals CTSBIGDCEMADM79
+  name: AWS-AZURE
+  #demands:
+  # - agent.name -equals CTSBIGDCEMADM79
 
 steps:
 - task: NodeTool@0
